@@ -1,0 +1,14 @@
+{
+  "name": "7z",
+  "version": "26.02",
+  "description": "7-Zip file archiver with high compression ratio",
+  "homepage": "https://www.7-zip.org",
+  "license": "LGPL-2.1",
+  "url": "https://github.com/ip7z/7zip/releases/download/26.02/7z2602-x64.msi",
+  "hash": "sha256:REPLACE_WITH_ACTUAL_HASH",
+  "archive": "msi",
+  "bin": ["7z.exe"],
+  "shims": ["7z"],
+  "env_add_path": ".",
+  "depends": []
+}
