@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "26.7.0",
+  "description": "Node.js JavaScript runtime",
+  "homepage": "https://nodejs.org",
+  "license": "MIT",
+  "url": "https://nodejs.org/dist/v26.7.0/node-v26.7.0-x64.msi",
+  "hash": "sha256:28dd9d5e53f829a32310a4fed334000a1681a7534641c599d05617f893c06a2b",
+  "archive": "msi",
+  "bin": [
+    "node.exe",
+    "npm.cmd",
+    "npx.cmd",
+    "corepack.cmd"
+  ],
+  "shims": [
+    "node",
+    "npm",
+    "npx",
+    "corepack"
+  ],
+  "env_add_path": "",
+  "depends": []
+}
