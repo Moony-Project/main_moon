@@ -1,0 +1,14 @@
+{
+  "name": "nim",
+  "version": "2.2.10",
+  "description": "The Nim programming language compiler and tools",
+  "homepage": "https://nim-lang.org",
+  "license": "MIT",
+  "url": "https://nim-lang.org/download/nim-$version_x64.zip",
+  "hash_url": "https://nim-lang.org/download/nim-$version_x64.zip.sha256",
+  "archive": "zip",
+  "bin": ["nim-$version\\bin\\nim.exe", "nim-$version\\bin\\nimble.exe"],
+  "shims": ["nim", "nimble"],
+  "env_add_path": "nim-$version\\bin",
+  "depends": []
+}
