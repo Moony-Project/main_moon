@@ -9,6 +9,6 @@
   "archive": "zip",
   "bin": ["nim-$version\\bin\\nim.exe", "nim-$version\\bin\\nimble.exe"],
   "shims": ["nim", "nimble"],
-  "env_add_path": "nim-$version\\bin"
+  "env_add_path": "nim-$version\\bin",
   "depends": []
 }
